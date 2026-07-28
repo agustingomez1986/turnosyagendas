@@ -1,0 +1,44 @@
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
+
+# Python cache files (backend may use Python in the future)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# General temporary files
+*.tmp
+*.temp
+
+# JetBrains
+*.iml
+
+# Misc
+.sass-cache/
