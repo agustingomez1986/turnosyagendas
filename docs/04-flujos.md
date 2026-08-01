@@ -14,6 +14,12 @@ El administrador crea un nuevo servicio y lo incorpora a la organización. Poste
 
 ---
 
+## Crear un plan de suscripción
+
+El administrador crea un plan de suscripción para un servicio determinado, definiendo las condiciones comerciales, como el precio, la duración y la cantidad máxima de clases permitidas por semana.
+
+---
+
 ## Agregar un profesional
 
 El administrador incorpora un usuario como profesional dentro de la organización y le asigna uno o varios servicios previamente creados.
@@ -38,9 +44,15 @@ El cliente selecciona una organización, elige un servicio disponible, seleccion
 
 ---
 
-## Contratar una suscripción
+## Contratar un plan de suscripción
 
-El cliente selecciona una organización y contrata una suscripción disponible según las opciones ofrecidas por la organización.
+El cliente selecciona uno de los planes de suscripción ofrecidos por la organización y realiza su contratación. Una vez activa la suscripción, podrá crear turnos recurrentes respetando las condiciones del plan.
+
+---
+
+## Crear un turno recurrente
+
+El cliente configura una reserva periódica para un servicio, seleccionando los días y horarios en los que desea asistir. El sistema verifica que la suscripción esté activa y que no se exceda la cantidad máxima de clases semanales permitidas por el plan contratado.
 
 ---
 
@@ -56,13 +68,19 @@ El cliente consulta sus turnos y puede modificarlos o cancelarlos según la disp
 
 ---
 
-## Modificar o cancelar una suscripción por parte del cliente
+## Modificar un turno recurrente
 
-El cliente podrá consultar el estado de sus suscripciones y realizar las acciones permitidas por la organización.
+El cliente podrá modificar los días u horarios de un turno recurrente. Cuando la modificación afecte una reserva perteneciente a una serie, el sistema permitirá elegir entre modificar únicamente ese turno o aplicar el cambio a toda la recurrencia, siempre respetando las condiciones del plan de suscripción.
 
 ---
 
-## Modificar o cancelar un turno o una suscripción por parte de un usuario de la organización
+## Cancelar un turno recurrente
+
+El cliente podrá cancelar un turno recurrente completo o únicamente una de sus ocurrencias, sin afectar el resto de la programación cuando así lo decida.
+
+---
+
+## Administrar turnos y suscripciones
 
 Los usuarios de la organización podrán administrar los turnos y las suscripciones de los clientes de acuerdo con su rol. Los profesionales únicamente podrán gestionar la información correspondiente a sus propios clientes.
 

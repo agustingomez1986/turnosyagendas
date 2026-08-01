@@ -1,6 +1,10 @@
 # Roles
 
-El objetivo de este documento es definir los distintos roles que pueden desempeñar los usuarios dentro de una organización y establecer sus responsabilidades, alcance y restricciones. Un mismo usuario podrá desempeñar uno o más roles dentro de una misma organización, según las necesidades de esta.
+El objetivo de este documento es definir los distintos roles que pueden desempeñar los usuarios dentro de una organización y establecer sus responsabilidades, alcance y restricciones.
+
+Un mismo usuario podrá desempeñar uno o más roles dentro de una misma organización, según las necesidades de esta.
+
+---
 
 ## Administrador
 
@@ -10,11 +14,15 @@ Administrar la organización y su configuración general.
 
 ### Responsabilidades
 
-* Administrar la organización.
-* Registrar, modificar y administrar los profesionales.
-* Registrar, modificar y administrar los recepcionistas.
-* Realizar modificaciones sobre los turnos cuando sea necesario.
-* Tendrá además los permisos correspondientes a los roles de Profesional y Recepcionista.
+* Administrar la información de la organización.
+* Crear, modificar y eliminar servicios.
+* Crear, modificar y eliminar planes de suscripción.
+* Incorporar, modificar y administrar profesionales.
+* Incorporar, modificar y administrar recepcionistas.
+* Administrar las suscripciones de los clientes.
+* Administrar los turnos y turnos recurrentes de los clientes.
+* Aprobar o rechazar comprobantes de pago.
+* Tendrá además todos los permisos correspondientes a los roles de Profesional y Recepcionista.
 
 ### Alcance
 
@@ -30,23 +38,25 @@ Puede administrar toda la información perteneciente a la organización.
 
 ### Propósito
 
-Gestionar la disponibilidad de sus servicios y atender a sus propios clientes.
+Gestionar la prestación de los servicios que tiene asignados y administrar la disponibilidad de su agenda.
 
 ### Responsabilidades
 
-* Definir los días y horarios de atención.
+* Definir los días y horarios de disponibilidad.
 * Definir la duración de los turnos.
-* Gestionar los turnos correspondientes a sus propios clientes.
-* Confirmar la asistencia o inasistencia de los clientes a sus turnos.
+* Gestionar los turnos correspondientes a los servicios que presta.
+* Registrar la asistencia o inasistencia de los clientes a sus turnos.
 
 ### Alcance
 
-Puede administrar únicamente la información relacionada con los servicios y turnos que le pertenecen.
+Puede administrar únicamente la información relacionada con los servicios que presta y los turnos asociados a ellos.
 
 ### Restricciones
 
 * No puede modificar la disponibilidad de otros profesionales.
-* No puede administrar los turnos de otros profesionales.
+* No puede administrar los turnos correspondientes a otros profesionales.
+* No puede administrar la configuración de la organización.
+* No puede aprobar comprobantes de pago.
 
 ---
 
@@ -58,24 +68,31 @@ Asistir en la gestión diaria de la agenda y la atención de los clientes.
 
 ### Responsabilidades
 
-* Crear turnos para los clientes.
-* Modificar turnos existentes.
-* Eliminar turnos cuando corresponda.
-* Confirmar la asistencia o inasistencia de los clientes.
+* Crear, modificar y cancelar turnos.
+* Crear, modificar y cancelar turnos recurrentes.
+* Administrar las suscripciones de los clientes.
+* Registrar comprobantes de pago.
+* Aprobar o rechazar comprobantes de pago.
+* Registrar la asistencia o inasistencia de los clientes.
 
 ### Alcance
 
-Puede gestionar los turnos de la organización.
+Puede administrar la agenda de la organización y las reservas de los clientes.
 
 ### Restricciones
 
-* No puede modificar la disponibilidad, los días, horarios ni la duración de los turnos definidos por los profesionales.
-* No puede administrar profesionales ni la configuración de la organización.
+* No puede modificar la disponibilidad definida por los profesionales.
+* No puede administrar servicios.
+* No puede administrar planes de suscripción.
+* No puede administrar profesionales.
+* No puede administrar la configuración de la organización.
 
 ---
 
-## Consideraciones generales
+## Permisos implícitos
 
 * Una organización podrá tener uno o varios administradores.
 * Un usuario podrá desempeñar uno o más roles dentro de una misma organización.
 * Un usuario podrá tener roles diferentes en organizaciones distintas.
+* Un administrador posee además todos los permisos de Profesional y Recepcionista.
+* Los permisos efectivos de un usuario serán la unión de todos los roles que tenga asignados dentro de una organización.
