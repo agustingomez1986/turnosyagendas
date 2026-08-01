@@ -1,5 +1,12 @@
 # Usuarios
 
+## Documentos relacionados
+
+* [Producto](./00-producto.md)
+* [Roles](./02-roles.md)
+* [Dominio](./03-dominio.md)
+* [Flujos](./04-flujos.md)
+
 El objetivo de este documento es identificar los tipos de usuarios que interactúan con la plataforma, comprender qué buscan lograr, cuáles son sus necesidades y cómo se relacionan con el sistema. En esta etapa no se definen permisos ni funcionalidades específicas de cada rol; esos aspectos se desarrollarán en el documento **Roles**.
 
 ## Tipos de usuarios

@@ -1,5 +1,20 @@
 # Producto
 
+## Documentos relacionados
+
+* [Usuarios](./01-usuarios.md)
+* [Roles](./02-roles.md)
+* [Dominio](./03-dominio.md)
+* [Flujos](./04-flujos.md)
+* [Backlog](./backlog.md)
+
+## Tabla de contenidos
+
+* [Producto](#producto)
+* [Modelo de monetización](#modelo-de-monetizaci%C3%B3n)
+* [Objetivo del negocio](#objetivo-del-negocio)
+* [Criterios de éxito](#criterios-de-%C3%A9xito)
+
 Desarrollaré una plataforma web para la gestión de turnos, clientes y servicios de prestadores, facilitando además la interacción entre el prestador y sus clientes.
 
 La plataforma permitirá organizar y mantener el control de los turnos asignados, realizar el seguimiento del estado de cuenta de los clientes, consultar su historial y disponer de una sección de notas asociadas a cada cliente, que podrá utilizarse como registro de seguimiento, observaciones o cualquier otra información relevante según el rubro. Por su parte, los clientes podrán solicitar turnos de acuerdo con la disponibilidad definida por el prestador.

@@ -1,5 +1,31 @@
 # Flujos
 
+## Documentos relacionados
+
+* [Producto](./00-producto.md)
+* [Usuarios](./01-usuarios.md)
+* [Roles](./02-roles.md)
+* [Dominio](./03-dominio.md)
+* [Backlog](./backlog.md)
+
+## Tabla de contenidos
+
+* [Crear una organización](#crear-una-organizaci%C3%B3n)
+* [Agregar un servicio](#agregar-un-servicio)
+* [Crear un plan de suscripción](#crear-un-plan-de-suscripci%C3%B3n)
+* [Agregar un profesional](#agregar-un-profesional)
+* [Agregar un recepcionista](#agregar-un-recepcionista)
+* [Configurar disponibilidad](#configurar-disponibilidad)
+* [Solicitar un turno](#solicitar-un-turno)
+* [Contratar un plan de suscripción](#contratar-un-plan-de-suscripci%C3%B3n)
+* [Crear un turno recurrente](#crear-un-turno-recurrente)
+* [Cargar un comprobante de pago](#cargar-un-comprobante-de-pago)
+* [Modificar o cancelar un turno por parte del cliente](#modificar-o-cancelar-un-turno-por-parte-del-cliente)
+* [Modificar un turno recurrente](#modificar-un-turno-recurrente)
+* [Cancelar un turno recurrente](#cancelar-un-turno-recurrente)
+* [Administrar turnos y suscripciones](#administrar-turnos-y-suscripciones)
+* [Registrar asistencia](#registrar-asistencia)
+
 Los flujos describen los principales procesos de negocio de la plataforma. Cada flujo representa una secuencia de acciones que realizan los usuarios para alcanzar un objetivo determinado.
 
 ## Crear una organización

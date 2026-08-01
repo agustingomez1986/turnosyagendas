@@ -1,0 +1,24 @@
+{
+  "version": "0.2",
+  "language": "es",
+  "dictionaries": ["es-ES", "en"],
+  "words": [
+    "turno",
+    "turnos",
+    "suscripción",
+    "suscripciones",
+    "kinesiología",
+    "SaaS",
+    "MVP",
+    "backlog",
+    "recepcionista",
+    "profesional",
+    "prestador",
+    "organización",
+    "comprobante",
+    "Google",
+    "Outlook",
+    "Mercado",
+    "Pago"
+  ]
+}
