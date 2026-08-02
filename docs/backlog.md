@@ -19,3 +19,9 @@
 - Google Calendar.
 - Outlook Calendar.
 - Mercado Pago.
+
+## Branding y personalización
+
+- Implementar acceso mediante subdominios (ver ADR-003).
+- Personalizar logo, colores e información pública por organización.
+- Permitir que cada organización configure su imagen institucional.
