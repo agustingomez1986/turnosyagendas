@@ -1,44 +1,81 @@
-# Dependency directories
+# ------------------------------
+# Frontend
+# ------------------------------
 node_modules/
-
-# Build outputs
 dist/
 build/
 .next/
 out/
 coverage/
+vite.svg
 
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# ------------------------------
+# Django
+# ------------------------------
+db.sqlite3
+media/
+staticfiles/
+
+# ------------------------------
 # Environment variables
+# ------------------------------
 .env
-.env.local
-.env.*.local
+.env.*
+!.env.example
 
+# ------------------------------
 # Logs
+# ------------------------------
+*.log
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
-*.log
 
-# OS generated files
+# ------------------------------
+# Docker
+# ------------------------------
+.docker/
+
+# ------------------------------
+# IDE
+# ------------------------------
+.vscode/
+.idea/
+*.iml
+
+# ------------------------------
+# Operating System
+# ------------------------------
 .DS_Store
 Thumbs.db
 Desktop.ini
 
-# Editor folders
-.vscode/
-.idea/
-
-# Python cache files (backend may use Python in the future)
-__pycache__/
-*.py[cod]
-*$py.class
-
-# General temporary files
+# ------------------------------
+# Temporary
+# ------------------------------
 *.tmp
 *.temp
-
-# JetBrains
-*.iml
-
-# Misc
 .sass-cache/
