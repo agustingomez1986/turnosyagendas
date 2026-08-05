@@ -6,15 +6,15 @@ main
    │
    ├── Desarrollar
    │
-   ├── Commits
-   │
+   ├── Commits 
+   │  Hacé commit con el mensaje feat(auth): implementar login con JWT."
    ├── Push de feature/login
-   │
+   │  "Hacé push de la rama feature/login al repositorio remoto."
    ├── Abrir Pull Request
    │       Closes #15
-   │
+   │  "Creá un Pull Request hacia main con el título Implementar login y en la descripción agregá Closes #15."
    ├── Revisar (aunque seas vos mismo)
    │
    ├── Merge a main
-   │
+   │  "Hacé merge del Pull Request y eliminá la rama feature/login."
    └── Eliminar feature/login
