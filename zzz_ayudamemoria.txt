@@ -5,7 +5,7 @@ main
    ├── Crear Issue #15 "Login"
    │
    ├── Crear rama feature/login
-   │
+   │  git switch -c feature/login
    ├── Desarrollar
    │
    ├── Commits 
