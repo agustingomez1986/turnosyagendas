@@ -1,6 +1,9 @@
 [tool.ruff]
 line-length = 88
 target-version = "py313"
+extend-exclude = [
+    "*/migrations/*.py",
+]
 
 [tool.ruff.lint]
 select = [
@@ -12,3 +15,4 @@ select = [
 [tool.ruff.format]
 quote-style = "double"
 indent-style = "space"
+line-ending = "lf"
