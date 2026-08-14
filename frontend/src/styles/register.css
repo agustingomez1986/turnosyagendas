@@ -1,0 +1,140 @@
+.register-page {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background: #f4f6f8;
+}
+
+.register-card {
+    width: min(100%, 30rem);
+    padding: 2rem;
+    border: 1px solid #d9dee5;
+    border-radius: 0.75rem;
+    background: #ffffff;
+    box-shadow: 0 0.5rem 1.5rem rgb(15 23 42 / 8%);
+}
+
+.register-card h1 {
+    margin: 0;
+    color: #172033;
+    font-size: 1.75rem;
+}
+
+.register-card__intro {
+    margin: 0.5rem 0 1.5rem;
+    color: #536176;
+}
+
+.register-form {
+    display: grid;
+    gap: 1rem;
+}
+
+.register-form__field {
+    display: grid;
+    gap: 0.375rem;
+}
+
+.register-form label {
+    color: #273449;
+    font-weight: 600;
+}
+
+.register-form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.75rem;
+    border: 1px solid #9ba7b7;
+    border-radius: 0.375rem;
+    background: #ffffff;
+    color: #172033;
+    font: inherit;
+}
+
+.register-form input:focus {
+    border-color: #2457d6;
+    outline: 0.1875rem solid rgb(36 87 214 / 20%);
+}
+
+.register-form input[aria-invalid="true"] {
+    border-color: #b42318;
+}
+
+.register-form input:disabled {
+    background: #eef1f5;
+    cursor: not-allowed;
+}
+
+.register-form button {
+    padding: 0.75rem 1rem;
+    border: 0;
+    border-radius: 0.375rem;
+    background: #2457d6;
+    color: #ffffff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+}
+
+.register-form button:hover:not(:disabled) {
+    background: #1945b5;
+}
+
+.register-form button:focus-visible {
+    outline: 0.1875rem solid rgb(36 87 214 / 30%);
+    outline-offset: 0.125rem;
+}
+
+.register-form button:disabled {
+    background: #8293bd;
+    cursor: not-allowed;
+}
+
+.register-form__field-errors,
+.register-form__general-errors {
+    color: #b42318;
+}
+
+.register-form__field-errors {
+    margin: 0;
+    padding-left: 1.25rem;
+    font-size: 0.875rem;
+}
+
+.register-form__general-errors {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #f0a7a0;
+    border-radius: 0.375rem;
+    background: #fff1f0;
+}
+
+.register-form__general-errors p {
+    margin: 0;
+}
+
+.register-form__general-errors p + p {
+    margin-top: 0.375rem;
+}
+
+.register-form__success {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #75b798;
+    border-radius: 0.375rem;
+    background: #e9f7ef;
+    color: #146c43;
+}
+
+@media (max-width: 36rem) {
+    .register-page {
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .register-card {
+        padding: 1.25rem;
+    }
+}
